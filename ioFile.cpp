@@ -26,4 +26,6 @@ int main()
         //menulis dan memasukkan niai dari 'baris' ke dalam file
         outfile << baris << endl;
     }
+    // selesai dalam menulis sekarang tutup file nya
+    outfile.close();
 }
