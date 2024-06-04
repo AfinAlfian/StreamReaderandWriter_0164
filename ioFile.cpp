@@ -4,7 +4,7 @@
 using namespace std;
 
 int main()
-{{
+{
     //untuk menyimpan data berbentuk string
     string baris;
 
@@ -23,7 +23,7 @@ int main()
         getline(cin, baris);
         //loop akan berhenti jika anda memasukkan karakter q
         if (baris == "q") break;
-        //menulis dan memasukkan niai dari 'baris' ke dalam file
+        //menulis dan memasukkan nilai dari 'baris' ke dalam file
         outfile << baris << endl;
     }
     // selesai dalam menulis sekarang tutup file nya
@@ -49,4 +49,4 @@ int main()
     //jika tidak ditemukan file maka akan menampilkan ini
     else cout << "unable to open file";
     return 0;
-}}
+}
