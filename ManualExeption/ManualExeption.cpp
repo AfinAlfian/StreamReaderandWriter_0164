@@ -19,5 +19,7 @@ int main()
 		//jika selain integer maka block ini akan dieksekusi
 		cout << "default pengeculaian dieksekusi" << endl;
 	}
+
+	return 0;
 }
 
