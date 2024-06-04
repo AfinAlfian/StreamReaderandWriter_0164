@@ -1,4 +1,4 @@
-#include <iostream>
+#include <fstream>
 #include <iostream>
 #include <string>
 using namespace std;
@@ -26,4 +26,6 @@ int main()
         //menulis dan memasukkan nilai dari 'baris' ke dalam file
         outfile << baris << endl;
     }
+    //selesai  dalam menulis sekarang tutup filenya
+    outfile.close();
 }
